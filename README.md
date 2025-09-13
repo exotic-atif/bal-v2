@@ -30,3 +30,17 @@ Baler Chat App V2 supports rooms, user management, and live location sharing —
 
 ## 📂 Project Structure
 
+
+│── public/ # Frontend (HTML, CSS, client JS)
+│ ├── index.html # Join page
+│ ├── chat.html # Chat UI
+│ └── css/styles.css # Styling
+│
+│── src/ # Backend source code
+│ ├── index.js # Main server (Express + Socket.IO)
+│ ├── utils/
+│ │ ├── messages.js # Message formatting helpers
+│ │ └── user.js # User management helpers
+│
+│── package.json
+│── README.md
